@@ -130,7 +130,7 @@ print(f'you have {pts_in_dollar}')
 
 bronze = 100
 silver = 499
-gold = 500
+gold = 900 #500
 
 tier_label = ('bronze' if pts_in_dollar < 100 else ('silver' if pts_in_dollar < 499 else 'gold'))
 if pts_in_dollar < 100:
